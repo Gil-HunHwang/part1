@@ -1,0 +1,55 @@
+/* CSS 작성 */
+header{
+    position: relative;
+    width: 1020px;
+    margin: 0 auto;
+    top: 100px;
+    bottom: 48px;
+}
+
+section{
+    position: relative;
+    width: 1020px;
+    height: 1010px;
+    margin: 0 auto;
+    top: 188px;
+}
+
+h2{
+    margin: 0;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+.one{
+   width: 502px;
+   height: 310px;
+   float: left;
+}
+
+.two{
+    width: 502px;
+    height: 310px;
+    float: right;
+ }
+
+.tr{
+    width: 243px;
+    height: 310px;
+    float: left;
+ }
+ 
+.fi{
+    width: 243px;
+    height: 310px;
+    float: right;
+ }
+
+ article button{
+    display: flex;
+ }

@@ -1,0 +1,8 @@
+/* Base 스타일 작성 */
+.Base{
+    box-sizing: border-box;
+    font-family: 'Noto Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+}
