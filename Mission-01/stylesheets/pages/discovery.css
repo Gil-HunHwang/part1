@@ -1,55 +1,64 @@
 /* CSS 작성 */
 header{
-    position: relative;
-    width: 1020px;
-    margin: 0 auto;
+    width: 1030px;
+    margin: 100px auto 48px;
     top: 100px;
     bottom: 48px;
 }
 
-section{
-    position: relative;
-    width: 1020px;
-    height: 1010px;
-    margin: 0 auto;
-    top: 188px;
-}
-
-h2{
+header h1{
     margin: 0;
 }
 
-.title{
-    display: flex;
-    align-items: center;
-    justify-content: left;
+section{
+    position: relative;
+    width: 1030px;
+    margin: 0 auto;
+    padding-top: 8px;
 }
 
+section h2{
+    margin:  0 auto 24px;
+}
+
+section h2 span{
+    font-size: 16px;
+}
 
 .one{
-   width: 502px;
-   height: 310px;
-   float: left;
+    width: 500px;
 }
 
 .two{
-    width: 502px;
-    height: 310px;
-    float: right;
- }
+    width: 242px;;
+}
 
-.tr{
-    width: 243px;
-    height: 310px;
+section li{
+    height: 300px;
     float: left;
- }
- 
-.fi{
-    width: 243px;
-    height: 310px;
-    float: right;
- }
+    position: relative;
+    margin: 10px 10px 0 0;
+    text-align: center;
+    display: list-item;
+    border: 1px solid red;
+}
 
- article button{
-    display: flex;
- }
+section li a{
+    display: block;
+}
+
+section li a img{
+    border: 0;
+    padding: 0;
+}
+
+button{
+   display: block;
+   text-indent: -9999em;
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   left: 20px;
+   bottom: 20px;
+}
+
