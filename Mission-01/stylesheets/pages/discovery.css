@@ -13,6 +13,7 @@ header h1{
 section{
     position: relative;
     width: 1030px;
+    height: 1000px;
     margin: 0 auto;
     padding-top: 8px;
 }
@@ -25,40 +26,64 @@ section h2 span{
     font-size: 16px;
 }
 
-.one{
-    width: 500px;
-}
-
-.two{
-    width: 242px;;
-}
-
-section li{
+section .discovery li{
     height: 300px;
     float: left;
     position: relative;
     margin: 10px 10px 0 0;
     text-align: center;
     display: list-item;
-    border: 1px solid red;
+    border: 1px solid #C4C4C4;
 }
 
-section li a{
-    display: block;
+.one{
+    width: 500px;
 }
 
-section li a img{
-    border: 0;
-    padding: 0;
+.two{
+    width: 243px;;
 }
 
 button{
    display: block;
-   text-indent: -9999em;
-   width: 40px;
-   height: 40px;
+   width: 42px;
+   height: 42px;
    position: absolute;
    left: 20px;
    bottom: 20px;
+   color: white;
+   background-color: gray;
+   opacity: 20%;
+   text-align: center;
 }
 
+.discovery :hover {
+    border-color: #0074E9;
+}
+.discovery li:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px #0074E9;
+}
+
+.discovery li:focus::before button{
+    content: "구매하기";
+}
+
+.discovery li:focus::before button:hover{
+    background-color: #0074E9;
+    opacity: inherit;
+    width: 112px;
+    height: 42px;
+    transition: ease-in-out 0.2s;
+}
+
+button:hover::before {
+    content: "구매하기";
+}
+button:hover {
+    background-color: #0074E9;
+    opacity: inherit;
+    width: 112px;
+    height: 42px;
+    transition: ease-in-out 0.2s;
+}

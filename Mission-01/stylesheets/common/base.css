@@ -1,4 +1,22 @@
 /* Base 스타일 작성 */
+*, *::before, *::after{
+    box-sizing: border-box;
+  }
+
 li{
     list-style-type : none;
+}
+
+body,  dl, dt, dd, ul, ol, menu, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, th, td, p {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border: 0;
+    padding: 0;
+}
+
+a{
+    display: block;
 }
