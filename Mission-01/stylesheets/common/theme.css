@@ -1,5 +1,13 @@
 /* Theme 스타일 작성 */
 :root{
+    --font-family: 'Noto Sans KR', sans-serif;
+    --color-font1: #AAA9A9;
+    --color-font2: #F3F3F3;
     --color-border1: #0074E9;
     --color-border2: #C4C4C4;
+    --color-border3: #F3F3F3;
+    --color-background1: #FFFFFF;
+    --color-background2: #0074E9;
+    --color-background3: #00000033;
 }
+
